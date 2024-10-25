@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .mainDiv {
+    width: 100%;
+    height: 600px; 
+    background-image: url("img/Blog-scaled.jpg"); 
+    background-image: url("img/blackimg.avif"); 
+    background-image: url("img/blackflower.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed; 
+} */
+
+
+.childVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.childDiv {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 120px; 
+    background-color: transparent;
+}
+
+.childDiv h1 {
+    font-size: 60px;
+}
+
+.childDiv p {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.childDiv from {
+    position: relative;
+}
+
+.childDiv input {
+    width: 400px;
+    padding: 10px 20px;
+    color: black;
+    outline: none; 
+}
+
+.childDiv button {
+    background-color: rgb(247, 146, 74);
+    padding: 11px 20px;
+    border: 1px solid rgb(247, 146, 74);
+    font-weight: 700; 
+    position: absolute;
+}

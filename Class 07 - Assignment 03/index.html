@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="">
+            <div class="row">
+                <div class="firstnameDiv col-6">
+                    <label for="firstName" class="labelBottom">First Name <span>*</span></label>
+                    <input type="text" id="firstName" class="fullInput" required>
+                </div>
+                <div class="latenameDiv col-6">
+                    <label for="lastName" class="labelBottom">Last Name <span>*</span></label> <br>
+                    <input type="text" id="lastName" class="fullInput" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="emailDiv col-12">
+                    <label for="email" class="labelBottom">Email Address <span>*</span></label> <br>
+                    <input type="email" id="email" class="fullInput" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="queryDiv">
+                    <label for="query" class="queryLabel">Query Type <span>*</span></label> <br>
+                    <div class="queryTypes row">
+                        <div class="col-6">
+                            <div class="queryDesign">
+                                <input type="radio" id="general" name="query"> <label for="general">General Enquiry</label> 
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="queryDesign">
+                                <input type="radio" id="support" name="query"> <label for="support">Support Request</label> 
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="row">
+                <div class="messageDiv col-12">
+                    <label for="message" class="labelBottom">Message <span>*</span></label> <br>
+                    <textarea id="message" rows="3" class="fullInput" required></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <input type="checkbox" id="agree" style="margin-left: 10px;"> <label for="agree">I consent to being contacted by the team <span>*</span></label> 
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-12">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

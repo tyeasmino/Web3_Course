@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header_with_whitepace {
+    width: 100%;
+    height: 530px;
+    background-color: #043873;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    color: white;
+    margin: auto;
+    display: flex;   
+    justify-content: center;  
+}
+
+.logo-div {
+    margin-right: 200px;
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+}
+
+.logo-text { 
+    font-weight: 900;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.nav ul li {
+    list-style: none;
+    float: left;
+    padding: 15px;
+}
+
+.item {
+    margin-top: 8px;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-login {
+    background-color: #FFE492;
+    color: #043873;
+    font-weight: 600;
+}
+
+.btn-free {
+    background-color: #4F9CF9;
+    font-weight: 600;
+}
+
+.row {
+    width: 72%;
+    margin: 30px auto;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.col-6 {
+    width: 50%;
+    float: left;
+}
+
+.more_done {
+    font-size: 50px; 
+}
+
+.project {
+    margin: 20px 0;
+    opacity: 0.5;
+}
+
+.btn-white {
+    color: white;
+    margin-top: 20px;
+}
+
+.mission {
+    width: 100%;
+}

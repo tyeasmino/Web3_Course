@@ -1,0 +1,20 @@
+1. what is DOCTYPE, if we no use it is there any problem - 
+if doctype is not declared, browser has to be analysis the file, 
+but if we declare then browser no need to analysis
+
+2. <html lang="en">
+html - is a tag,   
+<head>
+    meta - seo purpose
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+</head>
+<body>    
+    src, href is a attribute
+    rod, siment, bali sob e ak akta tag, r agulo ke mixed korar jonno use kori pani ai pani tai holo attribute
+    attribute - works for connecting 
+</body>
+</html>

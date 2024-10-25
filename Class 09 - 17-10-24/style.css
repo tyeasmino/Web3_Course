@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #eaf4f6;
+}
+
+nav {
+  padding: 15px 0px;
+  position: relative;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-nav a {
+  color: #4ea2e3;
+  font-weight: 400;
+}
+
+.right-nav {
+  background-color: tomato;
+  max-width: 20rem;
+  height: 100vh;
+  padding: 1rem 2rem;
+  /* rem - 16px = 1 rem */
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  display: none;
+}
+
+.right-nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+
+.right-nav a {
+  font-size: 20px;
+  color: #4ea2e3;
+}
+
+.back-to-mainButton {
+  border: 2px solid #1c6faf;
+  padding: 8px 20px;
+  color: #1c6faf !important;
+}
+
+.back {
+  transition: 1s;
+}
+
+.back:hover {
+  transform: translate(30px);
+}
+
+.back:hover .back-to-mainButton {
+  color: white !important;
+  background-color: #4ea2e3;
+  border: 2px solid #4ea2e3;
+}
+
+.nav-bar {
+  color: #4ea2e3;
+  font-size: 20px;
+}
+
+/* -------------- Hero Section ------------ */
+.heroContainer {
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.heroitem {
+  display: flex;
+  flex-direction: column;
+}
+
+.heroContainer .leftHero {
+  order: 2;
+  flex: 1;
+  background-color: #cbe6ea;
+}
+
+.leftHero .left-content, .resume-content {
+  padding: 30px 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  width: 70px;
+  height: 3px;
+  background-color: black;
+  margin: 30px auto;
+}
+
+.content-title {
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.left-content small {
+  font-size: 23px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.left-content .seeBtnDiv {
+  display: flex;
+  gap: 40px;
+  margin: auto;
+}
+
+.left-content .seeBtn {
+  background-color: #cbe6ea;
+  border: 2px solid #1c6faf;
+  padding: 20px 50px;
+  font-size: 20px;
+  color: #1c6faf !important;
+}
+
+.left-content .seeBtn:hover {
+  transition: 1s;
+  transform: translate(20px);
+  color: white !important;
+  background-color: #4ea2e3;
+  border: 2px solid #4ea2e3;
+}
+
+.heroContainer .rightHero {
+  order: 1;
+  flex: 1;
+}
+
+.heroContainer .rightHero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.resumeDiv {
+  width: 90%;
+  background-color: #cbe6ea;
+  text-align: center;
+  margin: auto; 
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+ 
+
+.aboutMeDiv {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-image: url("aboutMeBG.jpg");
+    margin: 20px auto;
+    padding: 100px 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.item {
+  z-index: 1;
+  position: relative;
+}
+
+.item::after {
+  content: "";
+  width: 100%;
+  height: 0px;
+  background-color: rgba(0, 255, 255, 0.872);
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  opacity: 0.3;
+  transition: 1s;
+  z-index: -1;
+}
+
+.item:hover::after {
+  height: 10px;
+}
+
+.card {
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  transition: 5s;
+  animation-name: tamima;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  /* ease er details if possible */
+  animation-delay: 0.1s;
+}
+
+@keyframes tamima {
+  0% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(50px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+
+/* .card:hover {
+    transform: rotate(60deg);
+    transform: scale(2);
+    transform: skew(-50deg);
+    transform: translateY(50px);
+}  */
+
+/* 
+psudo-class: hover, foucs 
+psudo-element: after, before  
+
+html vs html5 - audio, video 
+
+*/
+
+.card2 {
+  text-align: center;
+  padding: 50px;
+}
+
+.card2 h1 {
+  color: red;
+  position: relative;
+}
+
+.card2 h1::before {
+  width: 100px;
+  height: 20px;
+  background-color: aqua;
+  content: "";
+  position: absolute;
+  top: 5px; /* jar sathe kaj sei parent  */
+  right: 700px;
+}
+
+.card2 h1::after {
+  width: 100px;
+  height: 20px;
+  content: "";
+  background-color: aqua;
+  position: absolute;
+  top: 5px; /* jar sathe kaj sei parent  */
+  left: 700px;
+}
+
+@media only screen and (min-width: 991px) {
+  .right-nav {
+    background-color: transparent;
+    max-width: fit-content;
+    height: fit-content;
+    position: static;
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+  }
+
+  .right-nav a i,
+  .nav-bar {
+    display: none;
+  }
+
+  .right-nav ul {
+    flex-direction: row;
+  }
+
+  .heroitem {
+    flex-direction: row;
+  }
+
+  .heroContainer .leftHero {
+    order: 1;
+    height: 350px;
+    flex: 30%;
+  }
+
+  .heroContainer .rightHero {
+    order: 2;
+    flex: 70%;
+    height: 350px;
+  }
+
+  .heroContainer .rightHero img {
+    height: 350px;
+    object-fit: cover;
+  }
+
+  .left-content .seeBtn {
+    padding: 16px 25px;
+   }
+}

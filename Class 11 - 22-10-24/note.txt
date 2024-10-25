@@ -1,0 +1,26 @@
+bootstrap 4 vs bootstrap 5
+bug fix
+icon added
+
+5.3 keno holo??
+dark mood added to their website using vanilla js 
+
+
+bootstrap 
+link connection
+background
+border
+color
+display
+flex
+float -not used now, it is for old browser
+link
+object 
+opacity
+overflow
+position
+shadows
+sizing
+text
+visibility
+z-index 
