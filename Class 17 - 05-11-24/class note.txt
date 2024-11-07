@@ -1,0 +1,28 @@
+JavaScript - scripting interpretant language 
+server side, client side er kaj korte pari 
+
+changeable - dynamic 
+what is dynamic and static site. 
+static vs dynamic. 
+
+OOP - object oriented programming 
+class, object, 
+inheritance, polymorphism, encapsulation, abstraction 
+
+
+inheritance, encapsulation 
+
+
+Primitive and non-primitive data type in JS
+primitive - number, string, Boolean, undefined, null (predefined) 
+non primitive - object, array, function, date 
+
+var vs let vs const 
+var - included from start
+let, const - included from es6 
+
+var - scope ta any scope
+let, const - block scope 
+
+
+increment, decrement 

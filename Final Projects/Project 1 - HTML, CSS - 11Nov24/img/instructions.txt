@@ -1,0 +1,16 @@
+Project Live Link: https://preview.colorlib.com/theme/personalportfolio/
+
+
+google font: @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900|Rufina:400,700&display=swap");
+	     
+font-family: "Rufina",serif;
+font-family: "Rubik", sans-serif; for p tag
+
+
+Responsive Breakpoints(mobile first)
+
+@media (min-width: 576px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}

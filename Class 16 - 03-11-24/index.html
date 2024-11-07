@@ -1,0 +1,413 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <a href="https://flowbite.com/">FlowBite</a> <br> -->
+
+
+    <header class="relative">
+        <div class="">
+            <nav class=" dark:bg-gray-900  w-full top-0 start-0  dark:border-gray-600">
+                <div class="max-w-screen-xl relative flex flex-wrap items-center justify-between mx-auto p-4">
+                    <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                        <svg width="130" height="50" class="hidden md:block" viewBox="0 0 130.318 50">
+                            <g transform="translate(-3894 2762)">
+                                <rect width="50" height="50" rx="8" transform="translate(3894 -2762)" fill="#07a081">
+                                </rect>
+                                <path
+                                    d="M32.671,44.73h7.091V37.935H41.9a5.657,5.657,0,1,0,0-11.314H32.671Zm10.763,3.622H29V23H41.9a9.271,9.271,0,0,1,1.53,18.435Z"
+                                    transform="translate(3880 -2773)" fill="#fff"></path>
+                                <path
+                                    d="M1.694,0h2.6V-6.16H7.656a6.579,6.579,0,0,0,2.915-.616,4.639,4.639,0,0,0,1.969-1.76,5.1,5.1,0,0,0,.7-2.728,5.146,5.146,0,0,0-.7-2.75,4.639,4.639,0,0,0-1.969-1.76,6.579,6.579,0,0,0-2.915-.616H1.694Zm2.6-8.47v-5.61H7.722a3.03,3.03,0,0,1,2.134.748,2.641,2.641,0,0,1,.814,2.046A2.684,2.684,0,0,1,9.856-9.24a2.978,2.978,0,0,1-2.134.77ZM20.372.264a5.925,5.925,0,0,0,3.179-.836,4.64,4.64,0,0,0,1.9-2.112l-2.024-.99a3.73,3.73,0,0,1-1.2,1.243,3.29,3.29,0,0,1-1.837.5A3.458,3.458,0,0,1,18-2.827a3.433,3.433,0,0,1-1.1-2.409H25.74a3.34,3.34,0,0,0,.088-.572q.022-.308.022-.594a6.154,6.154,0,0,0-.671-2.849,5.361,5.361,0,0,0-1.936-2.112,5.61,5.61,0,0,0-3.069-.8,5.7,5.7,0,0,0-3,.8,5.773,5.773,0,0,0-2.1,2.2,6.476,6.476,0,0,0-.77,3.179A6.482,6.482,0,0,0,15.081-2.8,5.9,5.9,0,0,0,17.226-.561,5.958,5.958,0,0,0,20.372.264Zm-.2-10.34a3,3,0,0,1,2.112.792,2.9,2.9,0,0,1,.924,2.068H16.94a3.313,3.313,0,0,1,1.122-2.112A3.208,3.208,0,0,1,20.174-10.076ZM26.422,0h2.926l2.706-3.982L34.738,0h2.926L33.506-5.962l4.18-5.94H34.76L32.054-7.964,29.348-11.9H26.422l4.158,5.94ZM44.088.264a5.925,5.925,0,0,0,3.179-.836,4.64,4.64,0,0,0,1.9-2.112l-2.024-.99a3.73,3.73,0,0,1-1.2,1.243,3.29,3.29,0,0,1-1.837.5,3.458,3.458,0,0,1-2.4-.891,3.433,3.433,0,0,1-1.1-2.409h8.844a3.34,3.34,0,0,0,.088-.572q.022-.308.022-.594A6.154,6.154,0,0,0,48.9-9.251a5.361,5.361,0,0,0-1.936-2.112,5.61,5.61,0,0,0-3.069-.8,5.7,5.7,0,0,0-3,.8,5.773,5.773,0,0,0-2.1,2.2,6.476,6.476,0,0,0-.77,3.179A6.482,6.482,0,0,0,38.8-2.8,5.9,5.9,0,0,0,40.942-.561,5.958,5.958,0,0,0,44.088.264Zm-.2-10.34A3,3,0,0,1,46-9.284a2.9,2.9,0,0,1,.924,2.068h-6.27a3.313,3.313,0,0,1,1.122-2.112A3.208,3.208,0,0,1,43.89-10.076ZM51.546,0h2.486V-16.654H51.546ZM60.9.264a5.6,5.6,0,0,0,2.321-.451,3.635,3.635,0,0,0,1.551-1.254,3.21,3.21,0,0,0,.55-1.859,3.088,3.088,0,0,0-.792-2.123A4.635,4.635,0,0,0,62.26-6.732L60.324-7.3a4.436,4.436,0,0,1-1.034-.484,1.023,1.023,0,0,1-.484-.924,1.212,1.212,0,0,1,.484-1.012,2.068,2.068,0,0,1,1.3-.374,3.005,3.005,0,0,1,1.705.506A2.944,2.944,0,0,1,63.4-8.228l1.914-.9a4.344,4.344,0,0,0-1.8-2.233,5.337,5.337,0,0,0-2.9-.8,5.1,5.1,0,0,0-2.178.451,3.7,3.7,0,0,0-1.518,1.243,3.2,3.2,0,0,0-.55,1.87,3.1,3.1,0,0,0,.759,2.09,4.624,4.624,0,0,0,2.3,1.32l1.87.528a3.923,3.923,0,0,1,1.078.473,1.057,1.057,0,0,1,.506.957,1.259,1.259,0,0,1-.55,1.078,2.391,2.391,0,0,1-1.43.4,3.2,3.2,0,0,1-1.881-.594A4.049,4.049,0,0,1,57.684-3.96l-1.914.9a4.774,4.774,0,0,0,1.925,2.42A5.7,5.7,0,0,0,60.9.264Z"
+                                    transform="translate(3959 -2728)" fill="#fff"></path>
+                            </g>
+                        </svg>
+
+                        <svg width="40" height="40" class="md:hidden" viewBox="0 0 50 50">
+                            <g transform="translate(-3894 2762)">
+                                <rect width="50" height="50" rx="8" transform="translate(3894 -2762)" fill="#07a081">
+                                </rect>
+                                <path
+                                    d="M32.671,44.73h7.091V37.935H41.9a5.657,5.657,0,1,0,0-11.314H32.671Zm10.763,3.622H29V23H41.9a9.271,9.271,0,0,1,1.53,18.435Z"
+                                    transform="translate(3880 -2773)" fill="#fff"></path>
+                            </g>
+                        </svg>
+                    </a>
+
+                    <div class="flex items-center gap-5">
+                        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                            <button type="button"
+                                class="text-black bg-white focus:outline-none  font-medium rounded-lg text-sm px-6 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Join</button>
+                            <button data-collapse-toggle="navbar-sticky" type="button"
+                                class="inline-flex items-center p-2 w-10 h-10 justify-center text-lg text-white rounded-lg md:hidden hover:bg-transparent focus:outline-none  dark:text-white-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                                aria-controls="navbar-sticky" aria-expanded="false">
+                                <span class="sr-only">Open main menu</span>
+                                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 17 14">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div class="hidden items-center absolute top-0 left-0 right-0 h-[100vh]  overflow-auto md:overflow-visible  bg-black md:bg-transparent   md:h-auto md:static justify-between w-full md:flex md:w-auto md:order-1"
+                            id="navbar-sticky">
+
+                            <div
+                                class="md:hidden max-w-screen-xl border-gray-500 border-b-[0.5px] relative flex flex-wrap items-center justify-between mx-auto p-4">
+                                <div class="">
+                                    <svg width="40" height="40" class="md:hidden" viewBox="0 0 50 50">
+                                        <g transform="translate(-3894 2762)">
+                                            <rect width="50" height="50" rx="8" transform="translate(3894 -2762)"
+                                                fill="#07a081">
+                                            </rect>
+                                            <path
+                                                d="M32.671,44.73h7.091V37.935H41.9a5.657,5.657,0,1,0,0-11.314H32.671Zm10.763,3.622H29V23H41.9a9.271,9.271,0,0,1,1.53,18.435Z"
+                                                transform="translate(3880 -2773)" fill="#fff"></path>
+                                        </g>
+                                    </svg>
+
+                                </div>
+                                <div class="flex items-center rounded  bg-white h-[40px] px-3">
+                                    <i
+                                        class="fa-regular fa-image text-gray-400 text-[18px] p-1 border-gray-500 border-r-[0.5px]"></i>
+                                    <form action="" class="w-full">
+                                        <input type="text" placeholder="Search for free photos"
+                                            class="outline-none bg-transparent pl-2">
+                                    </form>
+                                    <i class="fa-solid fa-magnifying-glass text-gray-400 text-[18px]"></i>
+                                </div>
+                                <div class="">
+                                    <i class="fa-solid fa-xmark text-[25px] font-bold text-white cursor-pointer"></i>
+                                </div>
+                            </div>
+
+                            <!-- main ul  -->
+                            <ul class="flex flex-col p-4 md:p-0 mt-4
+                                 font-medium md:space-x-8 rtl:space-x-reverse 
+                                 md:flex-row md:mt-0 md:border-0 text-white
+                                 md:bg-transparent dark:bg-gray-800 
+                                 md:dark:bg-gray-900 dark:border-gray-700">
+                                <li>
+                                    <a href="#"
+                                        class="block py-2 px-3 bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                                        aria-current="page">Home</a>
+                                </li>
+                                <li class="group relative">
+                                    <a href="#"
+                                        class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Explore
+
+                                        <span class="group-hover:hidden absolute top-0 left-14"><i
+                                                class="fa-solid fa-angle-down"></i></span>
+                                        <span class="hidden group-hover:block absolute top-0 left-14"><i
+                                                class="fa-solid fa-angle-up"></i></span>
+
+                                    </a>
+                                    <div
+                                        class="opacity-0 group-hover:opacity-100 absolute w-[20px] h-[20px] translate-x-14 rotate-45 translate-y-2 bg-white ">
+                                    </div>
+                                    <ul
+                                        class="opacity-0 z-50 group-hover:opacity-100 absolute top-10 w-[100px] p-5 bg-white shadow-md text-black">
+                                        <li>item 1</li>
+                                        <li>item 2</li>
+                                        <li>item 3</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                                </li>
+                            </ul>
+
+
+                            <div>
+                                <!-- mobile ul part 2 -->
+                                <ul class=" border-y-[0.5px] border-gray-500 md:hidden flex flex-col p-4 md:p-0 mt-4
+                            font-medium md:space-x-8 rtl:space-x-reverse 
+                            md:flex-row md:mt-0 md:border-0 text-white
+                            md:bg-transparent dark:bg-gray-800 
+                            md:dark:bg-gray-900 dark:border-gray-700">
+                                    <li>
+                                        <a href="#"
+                                            class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                                    </li>
+                                </ul>
+
+                                <!-- mobile ul part 3 -->
+                                <ul class="md:hidden border-b-[0.5px] border-gray-500 flex flex-col p-4 md:p-0 mt-4
+                            font-medium md:space-x-8 rtl:space-x-reverse 
+                            md:flex-row md:mt-0 md:border-0 text-white
+                            md:bg-transparent dark:bg-gray-800 
+                            md:dark:bg-gray-900 dark:border-gray-700">
+
+                                    <li>
+                                        <a href="#"
+                                            class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"
+                                            class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                                    </li>
+                                </ul>
+
+                                <!-- mobile ul part 4-->
+                                <ul class="md:hidden flex justify-between p-8 md:p-0 mt-4 font-medium md:space-x-8 rtl:space-x-reverse 
+                           md:flex-row md:mt-0 md:border-0 text-[25px] text-white md:bg-transparent dark:bg-gray-800 
+                           md:dark:bg-gray-900 dark:border-gray-700">
+
+                                    <li> <a href="#"><i class="fa-brands fa-facebook-f"></i></a> </li>
+                                    <li> <a href="#"><i class="fa-brands fa-x-twitter"></i></a> </li>
+                                    <li> <a href="#"><i class="fa-brands fa-instagram"></i></a> </li>
+                                    <li> <a href="#"><i class="fa-brands fa-pinterest-p"></i></i></a> </li>
+                                    <li> <a href="#"><i class="fa-brands fa-youtube"></i></a> </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+
+        <div class="h-[60vh] flex justify-center items-center m-auto">
+            <div class="w-full h-full -z-[1] bg-black/40 absolute top-0 left-0 right-0 bottom-0 "></div>
+            <img class="absolute w-full h-full object-cover top-0 -z-[3] "
+                src="https://images.pexels.com/photos/28320398/pexels-photo-28320398.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=500&w=2000"
+                alt="">
+            <div class="hero-list max-w-[630px] ">
+                <h1 class="text-white text-center text-3xl font-bold ">
+                    The best free stock photos, royalty free images & videos shared by creators.
+                </h1>
+
+                <div class="max-w-screen-md border-gray-500 relative  items-center mx-auto p-4">
+
+                    <div class="flex items-center rounded  bg-white h-[40px] px-3">
+                        <span class="flex group relative border border-gray-300 px-2 rounded  items-center gap-2">
+                            <i class="fa-regular fa-image text-gray-400 text-[18px] p-1]"></i>
+                            Photos
+
+                            <!-- photos and videos -->
+                            <div
+                                class="bg-white absolute opacity-0 group-hover:opacity-100 top-10 left-0 w-[140px] px-5 py-3 rounded-sm">
+                                <span class=" border border-gray-300 p-2 rounded"><i
+                                        class="fa-regular fa-image text-black   text-[18px] px-1"></i>Photos</span>
+                                <br> <br>
+                                <span class=" border border-gray-300 p-2 rounded"><i
+                                        class="fa-solid fa-video text-black text-[18px] px-1"></i>Videos</span>
+                            </div>
+                        </span>
+
+                        <form action="" class="w-full">
+                            <input type="text" placeholder="Search for free photos"
+                                class="outline-none bg-transparent pl-2">
+                        </form>
+                        <i class="fa-solid fa-magnifying-glass text-gray-400 text-[18px]"></i>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="max-w-screen-xl p-4 m-auto">
+            <div class="1 text-center py-10 space-x-5">
+                <button class="text-sm font-semibold rounded-full px-5 py-2 text-white bg-black">Home</button>
+                <button
+                    class="text-black hover:text-white hover:bg-black text-sm font-semibold rounded-full px-5 py-2">Videos</button>
+                <button
+                    class="text-black hover:text-white hover:bg-black text-sm font-semibold rounded-full px-5 py-2">Leaderboard</button>
+                <button
+                    class="text-black hover:text-white hover:bg-black text-sm font-semibold rounded-full px-5 py-2">Challenges</button>
+            </div>
+            <div class="flex items-center justify-between">
+                <div class="left">
+                    <h2 class="font-bold text-lg text-gray-700 ">Free Stock Photos</h2>
+                </div>
+                <div class="right">
+
+                    <form class="max-w-sm mx-auto">
+                        <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-lg font-semibold cursor-pointer
+                        rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full py-3 px-6">
+                            <option class="bg-transparent hover:bg-gray-400 focus:bg-gray-400 " selected>Trending
+                            </option>
+                            <option class=" bg-transparent hover:bg-gray-400 focus:bg-gray-400" value="New">New</option>
+                        </select>
+                    </form>
+
+                    <!-- color change hoy na crome e, keno??  -->
+
+                </div>
+            </div>
+            <div class="py-4">
+
+
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                    <div class="grid gap-4">
+                        <div class="relative group cursor-pointer">
+                            <img class="h-auto max-w-full rounded-lg"
+                                src="https://images.pexels.com/photos/27545223/pexels-photo-27545223/free-photo-of-model-in-sweater-lying-on-grass.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+                            
+                            <div class="opacity-0 group-hover:opacity-100 ">
+                                <div class="top absolute top-3 right-3 space-x-2">
+                                    <button class="text-gray-400 px-4 py-2 rounded-xl bg-white"><i class="fa-regular fa-bookmark"></i></button>
+                                    <button class="text-gray-400 px-4 py-2 rounded-xl bg-white"><i class="fa-regular fa-heart"></i></button>
+                                </div>
+                                <div class="absolute bottom-10 left-3 right-3 flex justify-between items-center">
+    
+                                    <div class="flex items-center space-x-2"> 
+                                        <img class="w-[40px] h-[40px] rounded-full border-2 border-white" src="https://images.pexels.com/users/avatars/400570939/bei-ye-111.jpeg?auto=compress&fit=crop&h=40&w=40&dpr=2" alt="">
+                                        <p class="text-lg font-bold text-white">Mr. Asraful</p>
+                                    </div>
+                                    <div class=""><button class="bg-green-500 font-semibold text-lg px-6 py-2 text-white rounded-full"> <i class="fa-solid fa-download"></i> Download</button></div>
+    
+                                </div>
+                            </div>
+<!-- 
+                            <div class="opacity-0 group-hover:opacity-100 
+                            bg-red-700 absolute left-0 right-0 top-0 bottom-0 "></div> -->
+                        </div>
+
+                        <div class="relative group cursor-pointer">
+                            <img class="h-auto max-w-full rounded-lg"
+                                src="https://images.pexels.com/photos/29175346/pexels-photo-29175346/free-photo-of-solitary-sailboat-on-serene-lake-with-mountainous-backdrop.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+                        
+                            <div class="opacity-0 group-hover:opacity-100 ">
+                                <div class="top absolute top-3 right-3 space-x-2">
+                                    <button class="text-gray-400 px-4 py-2 rounded-xl bg-white"><i class="fa-regular fa-bookmark"></i></button>
+                                    <button class="text-gray-400 px-4 py-2 rounded-xl bg-white"><i class="fa-regular fa-heart"></i></button>
+                                </div>
+                                <div class="absolute bottom-10 left-3 right-3 flex justify-between items-center">
+    
+                                    <div class="flex items-center space-x-2"> 
+                                        <img class="w-[40px] h-[40px] rounded-full border-2 border-white" src="https://images.pexels.com/users/avatars/400570939/bei-ye-111.jpeg?auto=compress&fit=crop&h=40&w=40&dpr=2" alt="">
+                                        <p class="text-lg font-bold text-white">Mr. Asraful</p>
+                                    </div>
+                                    <div class=""><button class="bg-green-500 font-semibold text-lg px-6 py-2 text-white rounded-full"> <i class="fa-solid fa-download"></i> Download</button></div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg"
+                                src="https://images.pexels.com/photos/29186806/pexels-photo-29186806/free-photo-of-minimalist-black-and-white-wall-art-with-shadow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+                        </div>
+                    </div>
+
+                    <div class="grid gap-4">
+                        <div class="relative group cursor-pointer">
+                            <img class="h-auto max-w-full rounded-lg"
+                                src="https://images.pexels.com/photos/10583179/pexels-photo-10583179.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+                        
+                                <div class="opacity-0 group-hover:opacity-100 ">
+                                    <div class="top absolute top-3 right-3 space-x-2">
+                                        <button class="text-gray-400 px-4 py-2 rounded-xl bg-white"><i class="fa-regular fa-bookmark"></i></button>
+                                        <button class="text-gray-400 px-4 py-2 rounded-xl bg-white"><i class="fa-regular fa-heart"></i></button>
+                                    </div>
+                                    <div class="absolute bottom-10 left-3 right-3 flex justify-between items-center">
+        
+                                        <div class="flex items-center space-x-2"> 
+                                            <img class="w-[40px] h-[40px] rounded-full border-2 border-white" src="https://images.pexels.com/users/avatars/400570939/bei-ye-111.jpeg?auto=compress&fit=crop&h=40&w=40&dpr=2" alt="">
+                                            <p class="text-lg font-bold text-white">Mr. Asraful</p>
+                                        </div>
+                                        <div class=""><button class="bg-green-500 font-semibold text-lg px-6 py-2 text-white rounded-full"> <i class="fa-solid fa-download"></i> Download</button></div>
+        
+                                    </div>
+                                </div>
+                        </div>
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg"
+                                src="https://images.pexels.com/photos/3699654/pexels-photo-3699654.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+                        </div>
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg"
+                                src="https://images.pexels.com/photos/28268121/pexels-photo-28268121/free-photo-of-an-old-black-and-white-photo-of-the-ruins.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+                        </div>
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg"
+                                src="https://images.pexels.com/photos/29089513/pexels-photo-29089513/free-photo-of-striking-monochrome-image-of-an-islamic-dome.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+                        </div>
+                    </div> 
+                    
+                    <div class="grid gap-4">
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg"
+                                src="https://images.pexels.com/photos/28357757/pexels-photo-28357757/free-photo-of-workshop-de-fotografias-de-bodas.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+                        </div>
+
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg"
+                                src="https://images.pexels.com/photos/29172688/pexels-photo-29172688/free-photo-of-black-and-white-mountain-landscape.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+                        </div>
+                        
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg"
+                                src="https://images.pexels.com/photos/20664757/pexels-photo-20664757/free-photo-of-a-mans-silhouette-taking-a-photo-near-the-sea-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+    
+
+<footer class="bg-white rounded-lg shadow m-4 ">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">About</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline">Contact</a>
+        </li>
+    </ul>
+    </div>
+</footer>
+
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>

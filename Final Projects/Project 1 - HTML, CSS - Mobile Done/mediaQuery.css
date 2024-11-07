@@ -1,0 +1,218 @@
+@media (min-width: 576px) {
+}
+
+@media (min-width: 992px) {
+/*     
+    .menuBtn {
+        display: none;
+    } */
+    .navDiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 26px 45px; 
+    }
+    .tabPage {
+        display: block;
+    }
+    .mobilePage {
+        display: none;
+    }
+    .middleDiv { 
+        color: black;
+        background-color: transparent;
+    }
+.middleDivul {
+    margin-top: 0;
+    margin-left: 100px;
+}
+
+    
+.middleDivul {
+    flex-direction: row;
+    gap: 40px;
+}
+
+  .middleDiv,
+  .rightDiv {
+    display: block;
+  }
+
+  .leftHeroSection {
+    width: 50%;
+  }
+
+  .getText {
+        margin-top: 0px; 
+    }
+
+  .iamText {
+    font-size: 65px;
+  }
+
+  .heroButtonDiv {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+
+  .hireMeBtn {
+    display: block;
+  }
+
+  .designingQueryDiv {
+    display: flex;
+    padding: 200px 50px;
+    gap: 5%;
+  }
+
+  .leftDesigningDiv {
+    width: 50%;
+    padding-right: 90px;
+  }
+
+  .allH {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+
+  .rightQueryDiv {
+    width: 50%;
+    padding-right: 90px;
+  }
+
+  .hireBtn {
+    font-size: 35px;
+  }
+
+  .fa-arrow-right {
+    font-size: 25px;
+  }
+
+  .arrow-underline {
+    width: 23px;
+  }
+
+  .serviceDiv {
+    width: 70%;
+    padding: 140px 50px;
+    background-image: url("img/shape1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .cardsDiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .serviceH {
+    font-size: 50px;
+    width: 80%;
+  }
+
+  .Service_Div {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
+  .serviceHeaderDiv {
+    display: flex;
+    align-items: end;
+    margin-bottom: 50px;
+  }
+
+  .serviceHeaderDiv h1 {
+    width: 60%;
+  }
+
+  .serviceUl {
+    width: 40%;
+    justify-content: flex-end;
+    padding-right: 20px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.155);
+  }
+
+  .imgRow {
+    display: flex;
+    gap: 30px;
+  }
+
+  .contactDiv {
+    padding: 120px 0;
+  }
+
+  .leftMsg {
+    width: 50%;
+  }
+
+  .contactInnerDiv {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .serviceHeaderDiv {
+    margin: 0 10px;
+    margin-bottom: 50px;
+  }
+
+  .sliderControl {
+    display: block;
+  }
+
+  .brandsDiv {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contactFormDiv {
+    margin-top: 150px;
+    background-color: #fffafc;
+    padding: 150px 0;
+  }
+
+  .leftMsgDiv {
+    width: 50%;
+    padding-right: 90px;
+  }
+
+  .leftMsgDiv .allH {
+    font-size: 2em;
+  }
+
+  .rightFormDiv {
+    width: 40%;
+  }
+
+  footer {
+    padding: 50px;
+  }
+
+  .footerDiv {
+    padding: 150px 0;
+  }
+
+  .footerDiv h1 {
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .footerBottomDiv {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mobilePage {
+    display: none;
+  }
+
+}
+
+@media (min-width: 1200px) {
+}

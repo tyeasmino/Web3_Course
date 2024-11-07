@@ -1,0 +1,12 @@
+its fast, felixable, redaibla more than bootstrap
+runtime 0 
+
+component based 
+unlimited class
+customizable
+cli, cdn 
+
+amra cdn use korbo
+cdn is not preferable for production 
+becasuse it may slow the site 
+
