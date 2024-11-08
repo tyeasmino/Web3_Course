@@ -1,0 +1,67 @@
+@media (min-width: 1200px) {
+  .navDiv {
+    padding: 26px 45px;
+  }
+
+  .middleDivul {
+    gap: 12px;
+  }
+
+  .rightDiv {
+    display: block;
+  }
+
+  .getText {
+    margin-top: 80px;
+  }
+
+  .leftHeroSection {
+    width: 45% !important;
+    padding: 2% 5%;
+  }
+
+  .iamText {
+    font-size: 50px;
+  }
+
+  .heroButtonDiv {
+    margin: 40px 0 100px 0;
+  }
+
+  .allH992Container .allH992 {
+    margin-left: 10%;
+  }
+
+  .leftImg {
+    width: 67%;
+  }
+
+  .leftImg img {
+    height: 100%;
+  } 
+
+  .rightImg {
+    width: 33%;
+  }
+
+  .downImgRow img {
+    width: 33%;
+  }
+
+  .contactInnerDiv .allH {
+    font-size: 45px !important;
+  }
+
+  .personCard3 {
+    display: block;
+  }
+
+  .Service_Div .cardsDiv {
+    flex-wrap: nowrap;
+    gap: 20px;
+  }
+
+  .container {
+    width: 80%;
+  }
+}

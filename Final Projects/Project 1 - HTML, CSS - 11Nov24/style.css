@@ -157,7 +157,7 @@ p, li, a {
 
 .leftHeroSection { 
     width: 100%;
-    padding: 5%;
+    padding: 5% 0;
 }
 
 .getText {
@@ -629,6 +629,7 @@ footer{
 
 .copyrightDiv span {
     color: #E44239;
+    cursor: pointer;
 }
 
 .stayConnectedDiv {
@@ -643,6 +644,11 @@ footer{
     gap: 20px;
 }
 
+.stayConnectedDiv i:hover {
+    color: white;
+    cursor: pointer;
+}
+
 body {
     position: relative;
 }
@@ -655,4 +661,9 @@ body {
     background-color: #ec5b53;
     bottom: 15px;
     right: 15px;
+    transition: 0.5s;
+}
+
+.topIcon:hover i {
+    transform: rotate(360deg);
 }

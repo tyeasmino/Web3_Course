@@ -1,0 +1,233 @@
+@media (min-width: 992px) {
+  .navDiv {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 45px;
+    position: static;
+  }
+
+  .leftDiv {
+    margin-top: 0;
+    z-index: -10 !important;
+  }
+
+  .menuBtn {
+    display: none !important;
+  }
+
+  .menuBtn:hover {
+    display: none;
+  }
+
+  .middleDiv {
+    color: black;
+    top: 0;
+    position: static !important;
+  }
+
+  .middleDivul {
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    position: static;
+    transition: 0s;
+    background: transparent;
+  }
+
+  .tabPage {
+    display: block;
+  }
+
+  .mobilePage {
+    display: none;
+  }
+
+  .rightDiv {
+    display: none;
+  }
+
+  .leftHeroSection {
+    width: 55%;
+    margin-left: 100px;
+  }
+
+  .getText {
+    margin-top: 250px;
+  }
+
+  .iamText {
+    font-size: 50px;
+  }
+
+  .heroButtonDiv {
+    margin: 40px 0 250px 0;
+  }
+
+  .designingQueryDiv {
+    display: flex;
+    padding: 150px 0;
+    gap: 5%;
+  }
+
+  .leftDesigningDiv {
+    width: 50%;
+    padding-right: 60px;
+  }
+
+  .rightQueryDiv {
+    width: 50%;
+    padding-right: 90px;
+    margin-top: 0;
+  }
+
+  .hireBtn {
+    font-size: 30px;
+  }
+
+  .fa-arrow-right {
+    font-size: 25px;
+    font-size: 25px;
+  }
+
+  .arrow-underline {
+    width: 23px;
+  }
+
+  .serviceDiv {
+    width: 70%;
+    padding: 140px 230px 40px 20px;
+    margin: 0;
+    background-image: url("img/shape1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .allH992 {
+    font-size: 45px;
+  }
+
+  .serviceCardFor576 {
+    flex-wrap: nowrap;
+  }
+
+  .cardsDiv {
+    padding: 0;
+  }
+
+  .Service_Div .allH992 {
+    margin-bottom: 0;
+  }
+
+  .serviceHeaderDiv {
+    display: flex;
+    align-items: end;
+    margin-bottom: 30px;
+  }
+
+  .serviceHeaderDiv h1 {
+    width: 50%;
+  }
+
+  .serviceUl {
+    width: 50%;
+    justify-content: flex-end;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.155);
+  }
+
+  .downImgRow {
+    gap: 17px;
+  }
+
+  .contactDiv {
+    padding: 120px 0;
+  }
+
+  .leftMsg {
+    width: 50%;
+  }
+
+  .contactInnerDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contactInnerDiv .allH {
+    font-size: 40px !important;
+  }
+
+  .Service_Div {
+    margin: 120px auto;
+  }
+
+  .sliderServiceDiv {
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  .somePositive {
+    width: 70% !important;
+  }
+
+  .sliderControl {
+    display: block;
+  }
+
+  .Service_Div .cardsDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .personCard {
+    width: 48%;
+  }
+
+  .personCard3 {
+    display: none;
+  }
+
+  .brandsDiv {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 250px;
+  }
+
+  .brandsInnerDiv img {
+    height: 80px;
+  }
+
+  .leftMsgDiv {
+    width: 50%;
+  }
+
+  .rightFormDiv {
+    width: 45%;
+  }
+
+  .contactFormDiv {
+    padding: 50px 0 100px 0;
+  }
+
+  .footerDiv {
+    padding: 150px 0;
+  }
+
+  .footerDiv p {
+    padding: 0 300px;
+  }
+
+  .footerBottomDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .stayConnectedDiv {
+    margin: 10px 0;
+  }
+}
