@@ -1,5 +1,4 @@
-@media (min-width: 576px) {
-}
+
 
 @media (min-width: 992px) {
 /*     
@@ -138,10 +137,6 @@
     border-bottom: 2px solid rgba(128, 128, 128, 0.155);
   }
 
-  .imgRow {
-    display: flex;
-    gap: 30px;
-  }
 
   .contactDiv {
     padding: 120px 0;
