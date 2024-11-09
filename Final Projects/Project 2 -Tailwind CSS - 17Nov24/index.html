@@ -1,32 +1,69 @@
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <nav class="bg-blue-400">
-            <div class="max-w-screen-xl flex justify-between p-5">
+        <nav class="">
+            <div class="max-w-screen-xl flex justify-between items-center p-5">
                 <div class="left">
-                    <p>D</p>
+                    <img src="img/navbar-logo.svg" alt="">
                     <!-- -- for mobile  -->
-                    <button class="opacity-0 absolute">menu icon</button> 
+                    <button class="opacity-0 absolute">menu icon</button>
                 </div>
                 <div class="right">
-                    <ul class="flex space-x-6">
-                        <li>Services</li>
-                        <li>Home</li>
-                        <li>Contact</li>
-                        <li>Login </li>
+                    <ul class="flex space-x-20 items-center">
+                        <li class="hover:text-gray-500 text-gray-700 font-semibold">Services</li>
+                        <li class="hover:text-gray-500 text-gray-700 font-semibold">Works</li>
+                        <li class="hover:text-gray-500 text-gray-700 font-semibold">Blog</li>
+                        <li> <button
+                                class="font-semibold rounded border-2 border-[#3730A3] text-[#3730A3] px-6 py-2 hover:bg-[#3730A3] hover:text-white ">Hire
+                                me</button> </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
+
+        <div class="heroSection py-20 px-5">
+            <div class="flex justify-between">
+                <div>
+                    <div> 
+                        <p>Jessica Strosin</p>
+                    </div>
+
+                    <h1>Creative thinker Minimalism lover</h1>
+
+                    <p>
+                        Hi, I’m Jessica. I’m UI/UX Designer. If you are looking for Designer
+                        to build your brands and grow your business Let’s shake hands
+                        with me.
+                    </p>
+
+                    <div>
+                        <button
+                            class="font-semibold rounded bg-[#3730A3] text-white px-6 py-2 hover:bg-[#4F46E5] ">Hire
+                            me</button>
+                        <button
+                            class="mx-5 font-semibold rounded border-2 border-[#3730A3] text-[#3730A3] px-6 py-2 hover:bg-[#4F46E5] hover:text-white ">Read
+                            more</button>
+ 
+                        <p>I am currently open for part-time work.</p>
+                    </div>
+                </div>
+
+                <img src="img/home-img.jpg" alt="">
+            </div>
+        </div>
     </header>
-    
-    
+
+
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
+
 </html>
