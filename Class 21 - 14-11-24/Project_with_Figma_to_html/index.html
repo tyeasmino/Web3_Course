@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma to HTML - Resturant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <div class="">
+            <nav class="bg-red-700 flex justify-between items-center 
+                            px-[30px] py-[20px] 
+                            xl:px-[100px] xl:py-[32px]
+                            2xl:px-[300px] ">
+
+                <div class="left flex items-center gap-[60px]">
+                    <img class="w-[200px] h-full object-cover" src="img/Logo.png" alt="">
+
+                    <div class="menuList hidden xl:block">
+                        <ul class="flex gap-[40px] text-white text-[15px]">
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Portfolio</li>
+                            <li>Clients</li>
+                            <li>Blog</li>
+                            <li>Contant</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <!-- for Mobile -->
+                <div class="right xl:hidden text-white text-[20px]  ">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <!-- for Desktop -->
+                <div class="right hidden xl:block">
+                    <button class=" bg-[#FEBF00] text-[16px] px-[24px] py-[10px]">BOOK A TABLE</button>
+                </div>
+
+            </nav>
+        </div>
+
+        <section>
+            <div class="hero relative bg-red-700 px-[30px] py-[20px] 
+                        xl:px-[100px] xl:py-[32px]
+                        2xl:px-[300px] 
+                        flex flex-col xl:flex-row justify-between items-center">
+                <div class="left xl:w-[700px] 2xl:w-[940px]  xl:absolute pb-[48px] xl:pb-0 text-white flex flex-col gap-[32px]">
+                    <h2 class="text-[48px] xl:text-[80px] 2xl:text-[120px] leading-[56px] xl:leading-[90px] 2xl:leading-[130px] " 
+                    style="font-family: 'Bebas Neue', sans-serif; background: linear-gradient(90deg, #bd1f1799 32.88%, #bd1f17b3 100%);">TAST THE AUTHENTIC SAUDI CUISINE</h2>
+                    <p class="text-[20px] leading-[28px] " >
+                        Among the best Saudi chefs in the world, serving you something beyond flavor. 
+                    </p>
+                    <button class="bg-[#]">
+                        <button class=" bg-[#FEBF00] text-[16px] px-[24px] py-[10px] w-fit text-black">EXPLORE MENU</button>
+                    </button>
+                </div>
+                <div class="right xl:ms-auto ">
+                    <img src="img/food.png" class="xl:w-[550px] xl:h-[449px] 2xl:w-[700px] 2xl:h-[649px] object-cover" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+</body>
+</html>
