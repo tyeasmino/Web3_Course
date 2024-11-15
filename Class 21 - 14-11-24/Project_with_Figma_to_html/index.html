@@ -83,10 +83,10 @@
 
     <main>
         <!-- about section start -->
-        <section>
+        <section class="relative xl:px-[300px] xl:py-[120px] flex flex-col xl:gap-[74px]">
             <!-- about section part 1 -->
-            <div class="aboutSectionflex flex-col xl:flex-row gap-[32px]">
-                <div class="left relative py-[32px] px-[30px] ">
+            <div class="aboutSection flex flex-col xl:flex-row gap-[32px] ">
+                <div class="left xl:w-6/12 relative pt-[32px] xl:pt-0 px-[30px] xl:px-0 ">
                     <img src="img/about_food.png" alt="">
 
                     <div class="top-[50px] left-[50px] bg-white rounded-xl absolute flex items-center w-[140px]  py-[30px] px-[15px]">
@@ -101,7 +101,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="right  pb-[32px] px-[30px] ">
+                <div class="right xl:w-6/12 pb-[32px] px-[30px] xl:px-0">
 
                      <div class="flex flex-col gap-[24px]">
                         <ul class="flex gap-[20px] border-b-[1px] border-[#B52B1D] " >
@@ -110,10 +110,10 @@
                             <li class="text-[14px] hover:text-white hover:bg-[#B52B1D] px-[16px] py-[6px]">Contact</li>
                         </ul>
 
-                        <h2 class="text-[40px] text-uppercase " style="font-family: 'Bebas Neue', sans-serif; ">Exceptional culinary experience and delicious food</h2>
-                        <p class="text-[#333333] text-[16px] leading-[26px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>
+                        <h2 class="text-[40px] leading-[40px] xl:text-[62px] xl:leading-[62px] text-uppercase text-[#181818]" style="font-family: 'Bebas Neue', sans-serif; ">Exceptional culinary experience and delicious food</h2>
+                        <p class="text-[#333333] text-[16px] leading-[26px]" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare non sed est cursus. Vel hac convallis ipsum, facilisi odio pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna minim veniam nostrud exercitation.</p>
                     
-                        <div class="flex gap-[16px] items-center">
+                        <div class="flex gap-[16px] xl:gap-[32px] items-center">
                             <button class="font-bold bg-[#FEBF00] text-[16px] px-[24px] py-[10px] w-fit text-black">ABOUT MORE</button>
                             <div class="flex gap-[8px] items-center">
                                 <img class="w-[20px] h-[20px]" src="img/about_call.png" alt="">
@@ -126,8 +126,8 @@
             </div>
 
             
-            <!-- about section part 1 -->
-            <div class="py-[32px] px-[30px] flex flex-col gap-[32px]">
+            <!-- about section part 2 -->
+            <div class="py-[32px] px-[30px] xl:py-0 flex flex-col xl:flex-row justify-between gap-[32px]">
                 <div class="fastDelivery flex gap-[16px] items-center">
                     <img class="w-[70px] h-[70px]" src="img/about_fast_delivery.png" alt="">
                     <div class="">
@@ -151,8 +151,157 @@
                 </div>
                  
             </div>
+
+            <!-- <img class="hidden xl:block w-[280px] h-[255px] absolute top-[500px] -right-[185px] -rotate-6"  src="img/about_side_img_full.png" alt=""> -->
         </section>        
         <!-- about section end -->
+
+
+        <!-- popular food items start -->
+         <section>
+            <div class="foodItems bg-[#FBF7F2] xl:px-[300px] xl:py-[120px]">
+                <div class="foodheader flex justify-between items-center ">
+                    <div class="left px-[30px] py-[30px]">
+                        <p class="flex items-center gap-[10px] text-[#BD1F17] font-bold text-[16px] xl:text-[20px] leading-[26px] xl:leading-[32px] " >
+                            <img class="w-[10px] h-[10px]" src="img/food_items_cube.png" alt="">
+                            Crispy, Every Bite Taste
+                        </p>
+                        <h2 class="text-[#181818] text-[40px] xl:text-[62px] leading-[48px] xl:leading-[62px]" 
+                        style="font-family: 'Bebas Neue', sans-serif; ">Popular Food Items</h2>
+                    </div>
+                     
+                    <div class="hidden xl:flex">
+                        <img class="w-[60px] h-[60px]" src="img/leftarrow.png" alt="">
+                        <img class="w-[60px] h-[60px]" src="img/rightarrow.png" alt="">
+                    </div>
+                </div>
+
+                <div class="foodImg flex justify-between gap-[24px]">
+                    <div class="box bg-white  text-center m-auto xl:m-0 p-[55px] flex flex-col gap-[24px] ">
+                        <img class="w-[186px] h-[124px] m-auto" src="img/food_items_burger.png" alt="">
+                        <img class="w-[57px] m-auto" src="img/food_items_line.png" alt="">
+                        
+                        <div class="">
+                            <h6 class="text-[24px] leading-[36px] text-[#0A1425]" style="font-family: 'Bebas Neue', sans-serif; ">Vegetables Burger</h6>
+                            <p class="text-[16px] leading-[32px] text-[#0A1425]" >Barbecue Italian Cuisine pizza</p>
+                        </div>
+                    </div>
+                    
+                    <div class="box hidden xl:flex bg-white text-center items-center p-[55px] flex-col gap-[24px]">
+                        <img class="w-[186px] h-[124px] " src="img/food_items_pizza.png" alt="">
+                        <img class="w-[57px]" src="img/food_items_line.png" alt="">
+                        
+                        <div class="">
+                            <h6 class="text-[24px] leading-[36px] text-[#0A1425]" style="font-family: 'Bebas Neue', sans-serif; ">Spacial Pizza</h6>
+                            <p class="text-[16px] leading-[32px] text-[#0A1425]" >Barbecue Italian Cuisine pizza</p>
+                        </div>
+                    </div>
+ 
+                    <div class="box hidden xl:flex bg-white items-center text-center p-[55px] flex-col gap-[24px]">
+                        <img class="w-[186px] h-[124px] object-cover" src="img/food_items_frenchFries.png" alt="">
+                        <img class="w-[57px]" src="img/food_items_line.png" alt="">
+                        
+                        <div class="">
+                            <h6 class="text-[24px] leading-[36px] text-[#0A1425]" style="font-family: 'Bebas Neue', sans-serif; ">SPACIAL FRENCH FRIES</h6>
+                            <p class="text-[16px] leading-[32px] text-[#0A1425]" >Barbecue Italian cuisine</p>
+                        </div>
+                    </div>
+ 
+                    <div class="box hidden xl:flex bg-white items-center text-center p-[55px] flex-col gap-[24px]">
+                        <img class="w-[186px] h-[124px] object-cover" src="img/food_items_chicken.png" alt="">
+                        <img class="w-[57px]" src="img/food_items_line.png" alt="">
+                        
+                        <div class="">
+                            <h6 class="text-[24px] leading-[36px] text-[#0A1425]" style="font-family: 'Bebas Neue', sans-serif; ">Cuisine chicken</h6>
+                            <p class="text-[16px] leading-[32px] text-[#0A1425]" >Japanese Cuisine Chicken</p>
+                        </div>
+                    </div>  
+                                        
+                </div>
+
+                <div class="MobileControler xl:hidden  w-[100px] m-auto p-[10px] flex items-center">
+                    <img class="w-[40px] h-[40px]" src="img/leftarrow.png" alt="">
+                    <img class="w-[40px] h-[40px]" src="img/rightarrow.png" alt="">
+                </div>
+            </div>
+         </section>
+        <!-- popular food items end -->
+
+
+
+        <!-- book your table start -->
+         <section>
+             <div class="xl:px-[300px] xl:py-[120px]" style="background-image: url('img/black.jfif'); background-position: center; background-repeat: no-repeat; background-size: cover;" >
+                <div class="bookTableheader xl:w-[635px]">
+                    <div class="px-[30px] py-[30px] flex flex-col gap-[8px]">
+                        <p class="flex items-center gap-[10px] text-[#BD1F17] font-bold text-[16px] xl:text-[20px] leading-[26px] xl:leading-[32px] " >
+                            <img class="w-[10px] h-[10px]" src="img/food_items_cube.png" alt="">
+                            Book Now
+                        </p>
+                        <h2 class="text-white text-[40px] xl:text-[62px] leading-[48px] xl:leading-[62px]" 
+                        style="font-family: 'Bebas Neue', sans-serif; ">Book Your Table</h2>
+                        <p class="text-white text-[16px] leading-[24px] ">Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo molestie vel, ornare non id blandit netus.</p>
+                    </div>
+                    
+                    <div class="">
+                        <form class="px-[30px] py-[30px] flex flex-col gap-[16px]">
+                            <div class="flex flex-col xl:flex-row gap-[16px]">
+                                <input class="w-full xl:w-1/2 text-white px-[16px] py-[12px] bg-transparent border" type="text" placeholder="Your Name*">
+                                <input class="w-full  xl:w-1/2 text-white px-[16px] py-[12px] bg-transparent border"  type="email" placeholder="Your Email">
+                            </div>
+                            <div class="flex flex-col xl:flex-row gap-[16px]">
+                                <div class="relative xl:w-1/2">
+                                    <input class="w-full  text-white px-[16px] py-[12px] bg-transparent border"  type="text" placeholder="Reservation Date">
+                                    <img class="absolute w-[25px] h-[25px] object-cover top-3 right-3" src="img/form_calender.png" alt="">
+                                </div>
+                                <div class="relative xl:w-1/2">
+                                    <input class="w-full text-white px-[16px] py-[12px] bg-transparent border"  type="number" placeholder="Total People">
+                                    <img class="absolute w-[25px] h-[25px] top-3 right-3" src="img/updonw.png" alt="">
+                                </div>
+                            </div>
+                            <textarea class="w-full text-white px-[16px] py-[12px] bg-transparent border"  rows="5" placeholder="Message"></textarea>
+                            <button class=" bg-[#FEBF00] text-[16px] px-[24px] py-[10px] w-fit text-black">BOOK NOW</button>
+                        </form>
+                    </div>
+                </div>
+             </div>
+         </section>
+        <!-- book your table end -->
+
+
+        <!-- customers say start -->
+        <section>
+            <div class="customerSay   xl:px-[300px] xl:py-[120px]">
+                <div class="customerSayheader flex justify-between items-center ">
+                    <div class="left px-[30px] py-[30px]">
+                        <p class="flex items-center gap-[10px] text-[#BD1F17] font-bold text-[16px] xl:text-[20px] leading-[26px] xl:leading-[32px] " >
+                            <img class="w-[10px] h-[10px]" src="img/food_items_cube.png" alt="">
+                            Crispy, Every Bite Taste
+                        </p>
+                        <h2 class="text-[#181818] text-[40px] xl:text-[62px] leading-[48px] xl:leading-[62px]" 
+                        style="font-family: 'Bebas Neue', sans-serif; ">What some of my customers say</h2>
+                    </div>
+                     
+                    <div class="hidden xl:flex">
+                        <img class="w-[60px] h-[60px]" src="img/leftarrow.png" alt="">
+                        <img class="w-[60px] h-[60px]" src="img/rightarrow.png" alt="">
+                    </div>
+                </div>
+
+                <div class="customerSayImg  ">
+                    <div class="">
+                        <img src="img/feadback_play.png" alt="">
+                    </div>
+
+                    <div class="">
+                        <p>
+                            “You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.
+                        </p>
+                    </div>
+                </div> 
+            </div>
+         </section>
+        <!-- customers say end -->
 
         <img src="img/food_items_burger.png" alt="">
         <img src="img/food_items_chicken.png" alt="">
